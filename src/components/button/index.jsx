@@ -24,6 +24,7 @@ const ButtonWrapper = styled.button`
 }
 `;
 
+
 export function Button(props) {
  const { size } = props;
 

@@ -7,7 +7,7 @@ import LogoImg from "../../Images/mla.png"
 const BrandLogoContainer = styled.div`
   display: flex;
   align-items: center;
-  padding: 0px 70px; 
+  padding: 0px 45px; 
 `;
 
 const LogoImage = styled.div`

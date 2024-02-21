@@ -2,12 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import { BrandLogo } from "../brandLogo";
 import { Button } from "../button";
+import {} from "../buttonlink";
 
 const MainNavContainer = styled.div`
  width: 100%;
  height: 55px;
  display: flex;
- padding: 0 2.5em;
+ padding: 0 1.5em;
  align-items: center;
  background-color: #dd127b;
  justify-content: space-between;
@@ -49,6 +50,7 @@ export function Navbar(props) {
   return (
    <><MainNavContainer>
       Already have an account?
+      <buttonLink>Login</buttonLink>
        <AnchorLink>+(234)-806-719-1062</AnchorLink> 
    </MainNavContainer>
    <NavbarContainer>
